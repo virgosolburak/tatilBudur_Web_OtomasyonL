@@ -1,0 +1,228 @@
+#Otel Ara sekmesi altında bulunan alana<text> yazılır
+* "txt_Otel" li elemente <text> degerini yaz
+
+# Arama butonuna tıklanır
+*"btn_search" li elemente tıkla
+
+# Otel arama alanına <text1> yazılır ve gelen listeden <text2> seçilir.
+*"txt_Otel" li elemente <text1> degerini yaz
+* "allDopdownList" li elementlerden <text2> değerine eşit olana tıkla
+
+
+
+
+#Açılan ListBox üzerinde bulunan <text> ikonuna tıklanır ve otelin geldiği doğrularnır
+* "title_hotel" li elementin texti <text> mi?
+
+#Bölge, şehir, otel arama alanına <text> yazılır
+* "txt_Otel" li elemente <text> degerini yaz
+* "2" sn bekle
+*"dropdown_firstResult" li elemente tıkla
+
+
+#Açılan sayfanın doğru bölge, şehir, otel <text> olduğu doğrulanır
+* "title_hotelOrAreaPage" li elementin texti veya value attribute'u <text> içeriyor mu?
+
+#Arama alanında x ikonuna tıklanır
+*"3" sn bekle
+*"btn_closeSearch" li elemente tıkla
+
+# Tatil aralığı olarak günümüzden <text> sonrası seçilir
+* "mainSearchDate" li elemente tıkla
+* "1" sn bekle
+* Tarih olarak bu günden <text> gün sonrasını seç
+
+# Kalınacak gün olarak <text> gece seçildiği görülür
+* "popUpDay" li elementin texti veya value attribute'u <text> içeriyor mu?
+
+# Tarihi uygula butonu tıklanır
+* "btnDateApply" li elemente tıkla
+
+#Tarih seçme alanından <input> ay ileri gidilir.
+* "mainSearchDate" li elemente tıkla
+*"btnNextMonth" key li elemente <input> kere tıkla
+
+#Tarih seçme alanından <input> ay geri gidilir.
+*"btnPrevMonth" key li elemente <input> kere tıkla
+
+# Çerezleri kapat
+* "cerezleriKapat" li elemente tıkla
+
+#Tarih arama X butonuna tıklanarak kapatılır
+* "dateClose" li elemente tıkla
+
+# Kişi seçim ekranı açılır
+* "personCountPage" li elemente tıkla
+# X butonu ile kapatılır
+* "personCountClose" li elemente tıkla
+
+# Yetişkin sayısını <text> kişiye artır
+*"personAdultIncrease"elementini "personAdultCountResult" elementinin text değeri <text> olana kadar tıkla
+
+# Kişi sayısı uygula butonuna tıklanır
+* "personCountAccept" li elemente tıkla
+
+# Yetişkin sayısını <text> kişiye azaltılır
+*"personAdultDecrease"elementini "personAdultCountResult" elementinin text değeri <text> olana kadar tıkla
+
+# Çocuk sayısı<text> kişiye artırılır
+* "personKidIncrease"elementini "personKidCountResult" elementinin text değeri <text> olana kadar tıkla
+
+# Çocuk sayısı <text> kişiye azaltılır
+* "personKidDecrease"elementini "personKidCountResult" elementinin text değeri <text> olana kadar tıkla
+
+
+# Sıralama olarak <text> seçilir
+* "hotelSortMain" li elemente tıkla
+*"hotelSort" li elementlerden <text> değerine eşit olanı bul ve tıkla
+
+# Seçimin <text> olduğu görülür
+*"hotelSortMain" li elementin texti veya value attribute'u <text> içeriyor mu?
+
+# Filitreden fiyat aralığı olarak minimum <text> maximum <text2> seçilir
+* "filterPrizeInputMin" li elemente <text> degerini yaz
+* "filterPrizeInputMax" li elemente <text2> degerini yaz
+* "filterPrizeAccept" li elemente tıkla
+
+# Misafir puanı minimum <text> maximum <text2> olarak seçilir
+* "guestRateMin" li elementin "aria-valuetext" attributesini <text> yap
+* "guestRateMax" li elementin "aria-valuetext" attributesini <text2> yap
+
+# Populer filitrelerden <text> seçilir
+* "popularFilter" li elementlerden <text> değerine eşit olana tıkla
+
+# Filitrelerden <text> alanından <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "filterTextAll" li elementlerden <text2> değerine eşit olana tıkla
+
+# <text> bölgelerden <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "bolgelerMore" li elemente tıkla
+* "bolgelerList" li elementlerden <text2> değerine eşit olana tıkla
+
+
+
+
+
+
+#Filitrelerden <text> a.e. alanından <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "activiteList" li elementlerden <text2> değerine eşit olana tıkla
+
+# Filitrelerden <text> o.t. alanından <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "otelTemaMore" li elemente tıkla
+* "otelTemaList" li elementlerden <text2> değerine eşit olana tıkla
+
+# Filitrelerden <text> o. alanından <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "olanaklarMore" li elemente tıkla
+* "olanaklarList" li elementlerden <text2> değerine eşit olana tıkla
+# Filitrelerden <text> ç.i alanından <text2> seçilir
+* "filterTitleMain" li elementlerden <text> değerine eşit olana tıkla
+* "cocuklarIcinList" li elementlerden <text2> değerine eşit olana tıkla
+# ilk çocuğun yaşı <text> olarak girilir
+* Select "kidAge1" li elementlerinden <text> değerine eşit olanı seç (visibleText)
+
+# ikinci çocuğun yaşı <text> olarak girilir
+* Select "kidAge2" li elementlerinden <text> değerine eşit olanı seç (visibleText)
+
+
+# Gelen Listeden ilk otel seçilir
+* "firstHotel" li elemente tıkla
+
+# Gelen Listeden ilk oda seçilir
+* Yeni açılan sayfaya geç
+* "3" sn bekle
+
+* "firstRoom" li elemente tıkla
+
+
+# 1 kişi için cinsiyet <text> isim <text1> soyisim <text2> telefon numarası <text3> eposta <text4> doğum tarihi<text7> <text6> <text5> TCKN <text8> girilir
+* "firstPersonGender" li elementlerden <text> değerine eşit olana tıkla
+* "firstPersonName" li elemente <text1> degerini yaz
+* "firstPersonSurName" li elemente <text2> degerini yaz
+* "firstPersonPhoneNumber" li elemente <text3> degerini yaz
+* "firstPersonEmail" li elemente <text4> degerini yaz
+* "firstPersonBirhDateMain" li elemente tıkla
+* "firstPersonBirhDateYear" li elementlerden <text5> değerine eşit olanı seç
+* "firstPersonBirhDateMonth" li elementlerden <text6> değerine eşit olanı seç
+* "firstPersonBirhDateDay" li elementlerden <text7> değerine eşit olana tıkla
+* "firstPersonTCKN" li elemente <text8> degerini yaz
+
+# 2 kişi için cinsiyet <text> isim <text1> soyisim <text2> doğum tarihi<text7> <text6> <text5>
+* "secondPersonGender" li elementlerden <text> değerine eşit olana tıkla
+* "secondPersonName" li elemente <text1> degerini yaz
+* "secondPersonSurName" li elemente <text2> degerini yaz
+* "secondPersonBirhDateMain" li elemente tıkla
+* "secondPersonBirhDateYear" li elementlerden <text5> değerine eşit olanı seç
+* "secondPersonBirhDateMonth" li elementlerden <text6> değerine eşit olanı seç
+* "secondPersonBirhDateDay" li elementlerden <text7> değerine eşit olana tıkla
+
+#1 çocuk için cinsiyet <text> isim <text1> soyisim <text2> doğum tarihi çocuk <text7> <text6> <text5> yaş olarak girilir
+* "firstKidGender" li elementlerden <text> değerine eşit olana tıkla
+* "firstKidName" li elemente <text1> degerini yaz
+* "firstKidSurName" li elemente <text2> degerini yaz
+* "firstKidBirhDateMain" li elemente tıkla
+* Çocuğun yaşı için"firstKidBirhDateYear" li elementlerden <text5> değerine eşit olanı seç
+* "firstKidBirhDateMonth" li elementlerden <text6> değerine eşit olanı seç
+* "firstKidBirhDateDay" li elementlerden <text7> değerine eşit olana tıkla
+
+# 2 çocuk için cinsiyet <text> isim <text1> soyisim <text2> doğum tarihi çocuk <text7> <text6> <text5> yaş olarak girilir
+* "secKidGender" li elementlerden <text> değerine eşit olana tıkla
+* "secKidName" li elemente <text1> degerini yaz
+* "secKidSurName" li elemente <text2> degerini yaz
+* "secKidBirhDateMain" li elemente tıkla
+* Çocuğun yaşı için"secKidBirhDateYear" li elementlerden <text5> değerine eşit olanı seç
+* "secKidBirhDateMonth" li elementlerden <text6> değerine eşit olanı seç
+* "secKidBirhDateDay" li elementlerden <text7> değerine eşit olana tıkla
+
+# ödeme alanına devam et butonuna tıklanır
+* "odemeAlanınaGitButton" li elemente tıkla
+
+# Ödeme alanına isim <text> kredi kartı numarası <text1> ay <text2> yıl <text3> cvc <text4> girilir
+* "cardNameSurname" li elemente <text> degerini yaz
+* "cardNumber" li elemente <text1> degerini yaz
+* "cardExpireMonth" li elementlerden <text2> değerine eşit olanı seç
+* "cardExpireYear" li elementlerden <text3> değerine eşit olanı seç
+* "cardCVC" li elemente <text4> degerini yaz
+# Reservasyon oluştur Butonuna tıklanır
+* "onsozlesme" li elemente tıkla
+* "reservasyonOlusturButton" li elemente tıkla
+* "30" sn bekle
+
+
+# Kullanıcı kupon koduna <text1> girer ve uygula butonunu tıklar.
+ * "txt_couponCode" li elemente <text1> degerini yaz
+ * "btn_couponUygula" li elemente tıkla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

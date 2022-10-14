@@ -1,0 +1,21 @@
+{
+  "Deger_UserValidMail": "hepsifly-techteam@hepsiburada.com",
+  "Deger_UserValidPassword": "Hf12345!",
+  "Deger_InvalidMail": "hepsiflytechteam12@hepsiburada.com",
+  "Deger_InvalidPassword": "HF12345",
+  "Deger_Name": "Melike",
+  "Deger_SurName": "Şen",
+  "Deger_DateOfBirth": "17.06.1970",
+  "Deger_Gender": "Female",
+  "Deger_TC_ID": "84729355306",
+  "Deger_FullName": "Melike Şen",
+  "Deger_Email": "melek.sahin@virgosol.com",
+  "Deger_cardNumber": "5571135571135575",
+  "Deger_cardOwner": "Melike Şen",
+  "Deger_expireDate": "12/26",
+  "Deger_CVC": "000",
+  "Deger_secureCode": "a",
+  "Deger_Prod_UserValidMail": ".com",
+  "Deger_Prod_UserValidPassword": "xxxx"
+}
+

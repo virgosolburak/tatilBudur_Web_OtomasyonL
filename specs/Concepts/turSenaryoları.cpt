@@ -1,0 +1,115 @@
+#Tur Ara sekmesine tıklanır.
+* "tab_turAra" li elemente tıkla
+#Tur Ara sekmesi altında bulunan arama alanına <text> yazılır
+* "txt_serchTours" li elemente <text> degerini yaz
+# Gelen listeden <text> seçilir
+* "txt_serchTourResult" li elementlerden <text> değerine eşit olana tıkla
+# X iconu tıklanarak tur arama ekranı temizlenir
+* "2" sn bekle
+* "closeTourInput" li elemente tıkla
+
+# Gidilmek istenen dönem içi bu aydan itibare <text> ay sonrası seçilir
+* "month_selectMain" li elemente tıkla
+*"month_select" li elementlerden <text> sırada olanı seç
+
+# Günübirlik listesi açılır ve X ile kapatılabilmelidir
+* "month_selectMain" li elemente tıkla
+* "5" sn bekle
+* "month_close" li elemente tıkla
+
+#Kişi sayısı penceresi açılır
+* "persoCountMain" li elemente tıkla
+
+# Kişi sayısı penceresi kapanır
+*"3" sn bekle
+* "persoCountMain" li elemente tıkla
+
+#Yetişkin kişi sayısı <text> kişiye artırılır
+*"yetiskinCountIncrease"elementini "YetiskinCount" elementinin text değeri <text> olana kadar tıkla
+
+#Yetişkin kişi sayısı <text> kişiye azaltılır
+*"yetiskinCountDecrease"elementini "YetiskinCount" elementinin text değeri <text> olana kadar tıkla
+
+#Tur ara butonuna tıklanır
+* "btn_turAra" li elemente tıkla
+#<text> sayfasının açıldığı görülür
+*"title_TumTurlar" li elementin texti veya value attribute'u <text> içeriyor mu?
+
+#Çocuk sayısı <text> ye artılırılır
+*"CocukCountIncrease"elementini "CocukCount" elementinin text değeri <text> olana kadar tıkla
+#1. çocuğun yaşı <text> seçilir
+* Select "1CocukYas" li elementlerinden <text> değerine eşit olanı seç (visibleText)
+#2. çocuğun yasşı <text> seçilir
+* Select "2CocukYas" li elementlerinden <text> değerine eşit olanı seç (visibleText)
+#<text> sırlama olarak seçilir
+* "tur_siralama" li elementlerden <text> değerine eşit olana tıkla
+
+#Tur için kişi sayısı uygula butonuna tıklanır
+* "KisiSayisiUygulaBtn" li elemente tıkla
+
+#Çıkış Noktası olarak <text> seçilir
+* "turCikisNoktalari" li elementlerden <text> değerine eşit olana tıkla
+* "btn_CikisNoktasıUygula" li elemente tıkla
+#İlk otel seçilir
+* "tur_ilkOtel" li elemente tıkla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

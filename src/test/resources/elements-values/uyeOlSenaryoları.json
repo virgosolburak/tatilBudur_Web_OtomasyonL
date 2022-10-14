@@ -1,0 +1,48 @@
+[
+  {
+    "key": "btn_girisYap",
+    "value": "user-navbar",
+    "type": "id"
+  },
+  {
+    "key": "btn_girisYapClose",
+    "value": "(//div[@class='c-modal__modal-pre-header']/a)[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_email",
+    "value": "[name='email']",
+    "type": "css"
+  },
+  {
+    "key": "txt_password",
+    "value": "[name='password']",
+    "type": "css"
+  },
+
+  {
+    "key": "btn_girisYapMenu",
+    "value": ".submit-button",
+    "type": "css"
+  },
+
+  {
+    "key": "errorMessageGirisYapMenu",
+    "value": "//span[@class='help-block']",
+    "type": "xpath"
+  },
+  {
+    "key": "link_uyeol",
+    "value": ".user-action-trigger",
+    "type": "css"
+  },
+  {
+  "key": "errorMessagePassord",
+  "value": "#registerErrorMessage > p",
+  "type": "css"
+}
+
+
+
+
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "key": "tab_turAra",
+    "value": "[href='#finder-tab3']",
+    "type": "css"
+  },
+  {
+    "key": "txt_serchTours",
+    "value": "#searchTour",
+    "type": "css"
+  },
+  {
+    "key": "closeTourInput",
+    "value": "#searchFormTour .c-finder__col--38 .c-finder__dropdown-close",
+    "type": "css"
+  },
+  {
+    "key": "txt_serchTourResult",
+    "value": "//div[@class='c-finder__dropdown-item-title']",
+    "type": "xpath"
+  },
+  {
+    "key": "month_selectMain",
+    "value": "[name='period']",
+    "type": "css"
+  },
+  {
+  "key": "month_select",
+  "value": "(//div[@class='c-finder__dropdown'])[4]//label",
+  "type": "xpath"
+},
+  {
+    "key": "month_close",
+    "value": "(//*[name()='svg'])[59]",
+    "type": "xpath"
+  },
+  {
+    "key": "persoCountMain",
+    "value": "#searchFormTour [name='personCount']",
+    "type": "css"
+  },
+  {
+    "key": "persoCountClose",
+    "value": "(//*[name()='svg'])[62]",
+    "type": "css"
+  },
+  {
+    "key": "yetiskinCountIncrease",
+    "value": ".c-finder__dropdown-count--touradult > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "yetiskinCountDecrease",
+    "value": ".c-finder__dropdown-count--touradult > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "YetiskinCount",
+    "value": ".c-finder__dropdown-count--touradult > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+    "key": "CocukCountIncrease",
+    "value": ".c-finder__dropdown-count--tourchildren > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "CocukCountDecrease",
+    "value": ".c-finder__dropdown-count--tourchildren > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "CocukCount",
+    "value": ".c-finder__dropdown-count--tourchildren > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+    "key": "personCountUygula",
+    "value": ".apply-tour-customer-btn",
+    "type": "css"
+  },
+  {
+    "key": "btn_turAra",
+    "value": "#searchFormTourSubmitBtn",
+    "type": "css"
+  },
+  {
+    "key": "title_TumTurlar",
+    "value": "//h1[@class='title text-uppercase mt-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "1CocukYas",
+    "value": "#searchFormTour .c-finder__dropdown-footer div:nth-of-type(1) > [name]",
+    "type": "css"
+  },
+  {
+    "key": "2CocukYas",
+    "value": "#searchFormTour div:nth-of-type(2) > [name]",
+    "type": "css"
+  },
+  {
+    "key": "KisiSayisiUygulaBtn",
+    "value": ".apply-tour-customer-btn",
+    "type": "css"
+  },
+  {
+    "key": "tur_siralama",
+    "value": "//ul[@class='pull-right']//a",
+    "type": "xpath"
+  },
+  {
+    "key": "turCikisNoktalari",
+    "value": "//div[@class='item-filter-list']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_CikisNoktasıUygula",
+    "value": ".btn-outline",
+    "type": "css"
+  },
+  {
+    "key": "tur_ilkOtel",
+    "value": "(//section[@class='items tour']//h2)[1]",
+    "type": "xpath"
+  }
+  ]

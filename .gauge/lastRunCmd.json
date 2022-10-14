@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/Hp/Desktop/tatilBudur_Web_Otomasyon/specs/Scenarios/otelSenaryoları.spec:126"
+]

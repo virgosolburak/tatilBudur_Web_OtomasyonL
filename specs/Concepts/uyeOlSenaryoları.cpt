@@ -1,0 +1,51 @@
+
+# Giriş yap butonuna tıklanır
+* "btn_girisYap" li elemente tıkla
+# Eposta alanına <text> girilir
+* "txt_email" li elemente <text> degerini yaz
+# Passwor alanına <text> girilir
+* "txt_password" li elemente <text> degerini yaz
+# Sayfayı kapatma butonuna tıklanır
+* "btn_girisYapClose" li elemente tıkla
+
+# Giriş yap menüsünden giriş yap butonuna tıklanır
+* "btn_girisYapMenu" li elemente tıkla
+# Giriş yap menude <text> hata mesajının geldiği görülür
+* "errorMessageGirisYapMenu" li elementin texti veya value attribute'u <text> içeriyor mu?
+#Ücretsiz üye olun butonu tıklanır
+* "link_uyeol" li elemente tıkla
+#Şifre hata mesajı <text> olduğu görülür
+* "2" sn bekle
+* "errorMessagePassord" li elementin texti veya value attribute'u <text> içeriyor mu?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

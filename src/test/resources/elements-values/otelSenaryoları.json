@@ -1,0 +1,470 @@
+[
+  {
+    "key": "txt_Otel",
+    "value": "key",
+    "type": "id"
+  },
+  {
+    "key": "cerezleriKapat",
+    "value": "//div[@class='ins-cookie-close-button-c35']",
+    "type": "xpath"
+  },
+
+  {
+    "key": "btn_search",
+    "value": "#searchFormHotelSubmitBtn",
+    "type": "css"
+  },
+
+  {
+    "key": "title_hotel",
+    "value": ".title",
+    "type": "css"
+  },
+  {
+    "key": "allDopdownList",
+    "value": "//div[@class='c-finder__dropdown-item-title']",
+    "type": "xpath"
+  },
+  {
+    "key": "title_hotelOrAreaPage",
+    "value": ".c-title",
+    "type": "css"
+  },
+  {
+    "key": "btn_closeSearch",
+    "value": "#searchFormHotel .c-finder__col--38 .c-finder__dropdown-close",
+    "type": "css"
+  },
+  {
+    "key": "mainSearchDate",
+    "value": "(//div[@class='c-input__row'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "btnDateApply",
+    "value": ".c-button--midblue.applyBtn",
+    "type": "css"
+  },
+  {
+    "key": "btnNextMonth",
+    "value": "[fill='none']",
+    "type": "css"
+  },
+  {
+    "key": "btnPrevMonth",
+    "value": ".prev",
+    "type": "css"
+  },
+  {
+    "key": "popUpDay",
+    "value": "//div[@class='date-popover__body']",
+    "type": "xpath"
+  },
+  {
+    "key": "personCountPage",
+    "value": ".c-input--floating[name='personCount']",
+    "type": "css"
+  },
+  {
+    "key": "personCountClose",
+    "value": ".c-finder__border",
+    "type": "css"
+  },
+  {
+    "key": "personAdultIncrease",
+    "value": ".c-finder__dropdown-count--adult > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "personAdultCountResult",
+    "value": ".c-finder__dropdown-count--adult > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+    "key": "personCountAccept",
+    "value": ".apply-hotel-customer-btn",
+    "type": "css"
+  },
+  {
+    "key": "personAdultDecrease",
+    "value": ".c-finder__dropdown-count--adult > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "personKidIncrease",
+    "value": ".c-finder__dropdown-count--children > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "personKidCountResult",
+    "value": ".c-finder__dropdown-count--children > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+    "key": "personKidDecrease",
+    "value": ".c-finder__dropdown-count--children > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "hotelSortMain",
+    "value": ".hidden-sm.c-list__sort span:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "hotelSort",
+    "value": "//div[@class='c-list__sort__dropdown']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "filterPrizeInputMin",
+    "value": "#filterMinInput",
+    "type": "css"
+  },
+  {
+    "key": "filterPrizeInputMax",
+    "value": "#filterMaxInput",
+    "type": "css"
+  },
+  {
+    "key": "filterPrizeAccept",
+    "value": ".updatePriceRange",
+    "type": "css"
+  },
+  {
+    "key": "guestRateMin",
+    "value": ".tb-point-range .noUi-handle-lower",
+    "type": "css"
+  },
+  {
+    "key": "guestRateMax",
+    "value": ".tb-point-range .noUi-handle-upper",
+    "type": "css"
+  },
+  {
+    "key": "popularFilter",
+    "value": "(//div[@class='c-filter__section'])[4]//span",
+    "type": "xpath"
+  },
+  {
+    "key": "filterTitleMain",
+    "value": "//h5",
+    "type": "xpath"
+  },
+  {
+    "key": "filterTextAll",
+    "value": "//label/span",
+    "type": "xpath"
+  },
+  {
+    "key": "bolgelerMore",
+    "value": "#hotel-filter-form .close-more-accordion",
+    "type": "css"
+  },
+  {
+    "key": "bolgelerList",
+    "value": "//label[@class=' content-accordion ']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "activiteList",
+    "value": "//div[@class='c-filter__row category-Aktivite-Elence-filter-row']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "otelTemaMore",
+    "value": "#hotel-filter-form div:nth-of-type(10) .c-filter__more",
+    "type": "css"
+  },
+  {
+    "key": "otelTemaList",
+    "value": "//div[@class='c-filter__row category-OtelTemalar-filter-row']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "olanaklarMore",
+    "value": "#hotel-filter-form div:nth-of-type(11) .c-filter__more",
+    "type": "css"
+  },
+  {
+    "key": "olanaklarList",
+    "value": "//div[@class='c-filter__row category-Olanaklar-filter-row']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "cocuklarIcinMore",
+    "value": "#hotel-filter-form div:nth-of-type(11) .c-filter__more",
+    "type": "css"
+  },
+  {
+    "key": "cocuklarIcinList",
+    "value": "//div[@class='c-filter__row category-ocuklarin-filter-row']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "kidAge1",
+    "value": "#searchFormHotel .c-input__row div:nth-of-type(1) > [name]",
+    "type": "css"
+  },
+  {
+    "key": "kidAge2",
+    "value": "#searchFormHotel div:nth-of-type(2) > [name]",
+    "type": "css"
+  },
+  {
+    "key": "firstHotel",
+    "value": "(//div[@class='c-card__footer-right hidden-xs']/button)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstHotelRoom",
+    "value": "(//h3)[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstRoom",
+    "value": "(//div[@class='reservation']/a)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstPersonGender",
+    "value": "(//div[@class='checkout__form__group checkout__form__group--first gender-selection'])[1]//label",
+    "type": "xpath"
+  },
+  {
+    "key": "firstPersonName",
+    "value": "#checkout__form__link > .checkout__form__group [placeholder='Adınız*']",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonSurName",
+    "value": ".alpha-only[placeholder='Soyadınız*']",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonEmail",
+    "value": "[name='contactEmail']",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonPhoneNumber",
+    "value": "#phone",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonBirhDateMain",
+    "value": "[placeholder='Doğum Tarihiniz']",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonBirhDateMonth",
+    "value": ".show-calendar.auto-apply > .left .monthselect",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonBirhDateYear",
+    "value": ".show-calendar.auto-apply > .left .yearselect",
+    "type": "css"
+  },
+  {
+    "key": "firstPersonBirhDateDay",
+    "value": "//tbody//td[@class='available']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstPersonTCKN",
+    "value": "[placeholder='T.C Kimlik Numarası*']",
+    "type": "css"
+  },
+
+  {
+    "key": "secondPersonGender",
+    "value": "(//div[@class='checkout__form__group--flex'])[2]//label",
+    "type": "xpath"
+  },
+  {
+    "key": "secondPersonName",
+    "value": "[autocomplete='given-name'][placeholder='Adı*']",
+    "type": "css"
+  },
+  {
+    "key": "secondPersonSurName",
+    "value": "[autocomplete='family-name'][placeholder='Soyadı*']",
+    "type": "css"
+  },
+  {
+    "key": "secondPersonBirhDateMain",
+    "value": ".birth-date-picker[placeholder='Doğum Tarihi']",
+    "type": "css"
+  },
+  {
+    "key": "secondPersonBirhDateMonth",
+    "value": "(//th[@colspan='5'])[3]/select[@class='monthselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondPersonBirhDateYear",
+    "value": "(//th[@colspan='5'])[3]/select[@class='yearselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "secondPersonBirhDateDay",
+    "value": "(//div[@class='drp-calendar left single'])[2]//td[@class='available']",
+    "type": "xpath"
+  },
+
+  {
+    "key": "firstKidGender",
+    "value": "(//div[@class='checkout__form__group--flex'])[3]//label",
+    "type": "xpath"
+  },
+  {
+    "key": "firstKidName",
+    "value": "childName0",
+    "type": "id"
+  },
+  {
+    "key": "firstKidSurName",
+    "value": "childSurname0",
+    "type": "id"
+  },
+  {
+    "key": "firstKidBirhDateMain",
+    "value": ".birth-date-picker-child0",
+    "type": "css"
+  },
+  {
+    "key": "firstKidBirhDateMonth",
+    "value": "(//th[@colspan='5'])[5]/select[@class='monthselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstKidBirhDateYear",
+    "value": "(//th[@colspan='5'])[5]/select[@class='yearselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "firstKidBirhDateDay",
+    "value": "(//table[@class='table-condensed'])[5]//td[ @class='available']",
+    "type": "xpath"
+  },
+
+  {
+    "key": "secKidGender",
+    "value": "(//div[@class='checkout__form__group--flex'])[4]//label",
+    "type": "xpath"
+  },
+  {
+    "key": "secKidName",
+    "value": "childName1",
+    "type": "id"
+  },
+  {
+    "key": "secKidSurName",
+    "value": "childSurname1",
+    "type": "id"
+  },
+  {
+    "key": "secKidBirhDateMain",
+    "value": ".birth-date-picker-child1",
+    "type": "css"
+  },
+  {
+    "key": "secKidBirhDateMonth",
+    "value": "(//th[@colspan='5'])[7]/select[@class='monthselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "secKidBirhDateYear",
+    "value": "(//th[@colspan='5'])[7]/select[@class='yearselect']",
+    "type": "xpath"
+  },
+  {
+    "key": "secKidBirhDateDay",
+    "value": "(//table[@class='table-condensed'])[7]//td[ @class='available']",
+    "type": "xpath"
+  },
+  {
+    "key": "odemeAlanınaGitButton",
+    "value": ".checkout__right .checkout__button",
+    "type": "css"
+  },
+  {
+    "key": "cardNameSurname",
+    "value": "cardOwnerNameSurname",
+    "type": "id"
+  },
+  {
+    "key": "cardNumber",
+    "value": "[name='creditCard']",
+    "type": "css"
+  },
+  {
+    "key": "cardExpireMonth",
+    "value": "expireMonth",
+    "type": "id"
+  },
+  {
+  "key": "cardExpireYear",
+  "value": "expireYear",
+  "type": "id"
+  },
+  {
+    "key": "cardCVC",
+    "value": "cvc",
+    "type": "id"
+  },
+  {
+    "key": "reservasyonOlusturButton",
+    "value": ".checkout_container-payment .checkout__right > .d-none .checkout__button",
+    "type": "css"
+  },
+  {
+    "key": "onsozlesme",
+    "value": ".checkout_container-payment .checkout__right .icheckbox-default-orange",
+    "type": "css"
+  },
+  {
+    "key": "txt_couponCode",
+    "value": ".checkout_container-payment .checkout__right [name='coupon_code']",
+    "type": "css"
+  },
+  {
+    "key": "btn_couponUygula",
+    "value": ".checkout_container-payment .checkout__right__content .checkout__button",
+    "type": "css"
+  },
+  {
+    "key": "btn_UcusEkle",
+    "value": "#txtFromLocationReservation",
+    "type": "css"
+  },
+  {
+    "key": "btn_otelGidisMain",
+    "value": "#txtFromLocationReservation",
+    "type": "css"
+  },
+  {
+    "key": "slct_otelGidisUcak",
+    "value": "(//ul[@id='ui-id-2']/li[@class='ui-menu-item'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_otelDonusMain",
+    "value": "(//ul[@id='ui-id-4']/li[@class='ui-menu-item'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "slct_otelDonusUcak",
+    "value": ".checkout_container-payment .checkout__right__content .checkout__button",
+    "type": "css"
+  },
+  {
+    "key": "btn_ucusAraOtel",
+    "value": ".mainSearchButton",
+    "type": "css"
+  }
+
+
+
+]

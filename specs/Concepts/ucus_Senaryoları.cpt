@@ -1,0 +1,85 @@
+
+#Uçuş ara sekmesi tıklanır
+* "tab_ucusAra" li elemente tıkla
+# Gidis donus secilir
+* "gidisDonus" li elemente tıkla
+# Tek yon secilir
+* "tekyon" li elemente tıkla
+# Ucus yönü için <text> Seçilir
+* "btn_tekYon_Gidis_Donus" li elementlerden <text> değerine eşit olana tıkla
+# Nerden alanına <text> yazılır listeden <text2> seçilir
+* "3" sn bekle
+*"txt_Nerden" li elemente <text> degerini yaz
+* "1" sn bekle
+* "txt_NerdenResult" li elementlerden <text2> değerine eşit olana tıkla
+# Nereye alanına <text> yazılır ve seçilir
+*"txt_Nereye" li elemente <text> degerini yaz
+* "1" sn bekle
+* "txt_NerdenResult" li elementlerden <text> değerine eşit olana tıkla
+# Nereye alanına <text> yazılır ve <text2> seçilir
+* "3" sn bekle
+*"txt_Nereye" li elemente <text> degerini yaz
+* "1" sn bekle
+* "txt_NerdenResult" li elementlerden <text2> değerine eşit olana tıkla
+* "5" sn bekle
+# Yetişkin olarak <text> kişi eklenir
+*"personCountMain" li elemente tıkla
+* "adultCountIcrease"elementini "adultCountResult" elementinin text değeri <text> olana kadar tıkla
+# Sınıf olarak <text> seçilir
+* "UcusSınıfSecenekleriMain" li elemente tıkla
+* "UcusSınıfSecenekleri" li elementlerden <text> değerine eşit olana tıkla
+# Uçuş ara butonu tıklanır
+* "btn_Search_Uygula" li elemente tıkla
+# Çocuk olarak <text> kişi eklenir
+* "kidCountIcrease"elementini "kidCountResult" elementinin text değeri <text> olana kadar tıkla
+# Bebek olarak <text> kişi eklenir
+* "babyCountIcrease"elementini "babyCountResult" elementinin text değeri <text> olana kadar tıkla
+# Gelen listeden <text> uçuş seçilir
+* "gidişUçuşListesi" li elementlerden <text> sırada olanı seç
+# Gelen listeden gidiş için  <text> uçuş seçilir
+* "gidisUcusListesi" li elementlerden <text> sırada olanı seç
+# Gelen listeden dönüş için  <text> uçuş seçilir
+* "donusUcusListesi" li elementlerden <text> sırada olanı seç
+# Gelen listeden gidiş için ilk uçuş seçilir
+* "15" sn bekle
+*"gidisIlkUcus" li elemente tıkla
+# Gelen listeden dönüş için ilk uçuş seçilir
+*"donusIlkUcus" li elemente tıkla
+# Gidiş için listeden <input> gün sonrası seçilir
+* "gidisNextDay" key li elemente <input> kere tıkla
+# Gidiş için listeden <input> gün öncesi seçilir
+* "gidisPrevDay" key li elemente <input> kere tıkla
+# Dönüş için listeden <input> gün sonrası seçilir
+* "donusNextDay" key li elemente <input> kere tıkla
+# Dönüş için listeden <input> gün öncesi seçilir
+* "donusPrevDay" key li elemente <input> kere tıkla
+# Gidiş için listeden <text> uçuş detayı tıklanır
+* "gidis_Ucus_Detay_Link" li elementlerden <text> sırada olanı seç
+# Uçuş satın al butonuna tıklanır
+* "ucusSatınalBtn" li elemente tıkla
+
+
+
+
+
+
+
+
+
+
+3ecc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

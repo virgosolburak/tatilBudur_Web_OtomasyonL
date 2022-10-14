@@ -1,0 +1,168 @@
+[
+  {
+    "key": "tab_ucusAra",
+    "value": "[href='#finder-tab2']",
+    "type": "css"
+  },
+  {
+    "key": "btn_tekYon_Gidis_Donus",
+    "value": "//ul[@class='c-finder__toggle']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "tekyon",
+    "value": "//input[@value='oneWay']",
+    "type": "xpath"
+  },
+  {
+    "key": "gidisDonus",
+    "value": "//ul[@class='c-finder__toggle']/li[1]/input[@name='flight-type']",
+    "type": "xpath"
+  },
+  {
+    "key": "btn_tekYon_Gidis_Donus",
+    "value": "//div[@class='c-finder__row']/ul[@class='c-finder__toggle']//label",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_Nerden",
+    "value": "#txtFromLocation",
+    "type": "css"
+  },
+  {
+    "key": "txt_NerdenResult",
+    "value": "//div[@class='c-finder__dropdown-item-title']",
+    "type": "xpath"
+  },
+  {
+    "key": "txt_Nereye",
+    "value": "#txtToLocation",
+    "type": "css"
+  },
+  {
+      "key": "personCountMain",
+    "value": "[placeholder='Yolcu Sayısı']",
+    "type": "css"
+  },
+  {
+    "key": "adultCountIcrease",
+    "value": ".c-finder__dropdown-count--flightadult > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "adultCountDecrease",
+    "value": ".c-finder__dropdown-count--flightadult > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "adultCountResult",
+    "value": ".c-finder__dropdown-count--flightadult > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+
+  {
+    "key": "kidCountIcrease",
+    "value": ".c-finder__dropdown-count--flightchildren > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "kidCountDecrease",
+    "value": ".c-finder__dropdown-count--flightchildren > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "kidCountResult",
+    "value": ".c-finder__dropdown-count--flightchildren > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+    "key": "babyCountIcrease",
+    "value": ".c-finder__dropdown-count--flightbaby > .c-finder__dropdown-count-increase",
+    "type": "css"
+  },
+  {
+    "key": "babyCountDecrease",
+    "value": ".c-finder__dropdown-count--flightbaby > .c-finder__dropdown-count-decrease",
+    "type": "css"
+  },
+  {
+    "key": "babyCountResult",
+    "value": ".c-finder__dropdown-count--flightbaby > .c-finder__dropdown-count-input",
+    "type": "css"
+  },
+  {
+  "key": "btn_Search_Uygula",
+  "value": ".c-button--lg-h",
+  "type": "css"
+},
+  {
+    "key": "UcusSınıfSecenekleri",
+    "value": "//label[@class='flight-class-lbl']",
+    "type": "xpath"
+  },
+
+  {
+    "key": "UcusSınıfSecenekleriMain",
+    "value": "[placeholder='Sınıf']",
+    "type": "css"
+  },
+  {
+    "key": "gidisUcusListesi",
+    "value": "//section[@id='departure']//button",
+    "type": "xpath"
+  },
+  {
+    "key": "gidisIlkUcus",
+    "value": "//ul[@class='option-list flight-items flight-from']/li[1]//button[@name='flight-from']",
+    "type": "xpath"
+  },
+
+
+  {
+    "key": "donusUcusListesi",
+    "value": "//section[@id='return']//button",
+    "type": "xpath"
+  },
+  {
+    "key": "donusIlkUcus",
+    "value": "//ul[@class='option-list flight-items flight-to']/li[@class='flight-item  PC evening directFlight filter-show']//button[@name='flight-to']",
+    "type": "xpath"
+  },
+
+  {
+    "key": "gidisNextDay",
+    "value": "#departure .flight-next-day",
+    "type": "css"
+  },
+  {
+    "key": "gidisPrevDay",
+    "value": "#departure .flight-prev-day",
+    "type": "css"
+  },
+  {
+    "key": "donusNextDay",
+    "value": "#return .flight-next-day",
+    "type": "css"
+  },
+  {
+    "key": "donusPrevDay",
+    "value": "#return .flight-prev-day",
+    "type": "css"
+  },
+  {
+    "key": "donus_Ucus_Detay_Link",
+    "value": "//section[@id='return']//*[text()='Detay']",
+    "type": "xpath"
+  },
+  {
+    "key": "gidis_Ucus_Detay_Link",
+    "value": "//section[@id='departure']//*[text()='Detay']",
+    "type": "xpath"
+  },
+  {
+    "key": "ucusSatınalBtn",
+    "value": ".buy-flight",
+    "type": "css"
+  }
+
+]

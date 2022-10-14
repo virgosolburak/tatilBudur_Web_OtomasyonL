@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.virgosol.tatilBudur</groupId>
+  <artifactId>TatilBudur</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>Tatil Budur Web Test Automation</name>
+  <url>http://192.168.186.88:81</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.complier.version>3.6.0</maven.complier.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <junit.version>4.12</junit.version>
+    <gauge.plugin.version>1.5.0</gauge.plugin.version>
+    <!-- <virgosol.qa.version>1.0.0</virgosol.qa.version> -->
+    <!-- <virgosol.qa.version>2.0.10</virgosol.qa.version> -->
+    <virgosol.qa.version>2.0.26</virgosol.qa.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.vrgsl.qa</groupId>
+      <artifactId>web-gauge</artifactId>
+      <version>${virgosol.qa.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>klov-reporter</artifactId>
+      <version>5.0.6</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.17</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+    <dependency>
+      <groupId>net.sourceforge.jexcelapi</groupId>
+      <artifactId>jxl</artifactId>
+      <version>2.6.12</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${maven.complier.version}</version>
+        <configuration>
+          <compilerVersion>${maven.compiler.source}</compilerVersion>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.thoughtworks.gauge.maven</groupId>
+        <artifactId>gauge-maven-plugin</artifactId>
+        <version>${gauge.plugin.version}</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
