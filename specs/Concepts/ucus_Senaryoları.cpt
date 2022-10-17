@@ -58,9 +58,11 @@
 # Uçuş satın al butonuna tıklanır
 * "ucusSatınalBtn" li elemente tıkla
 
+#Gelen listeden yurt dışı uçuş için ilk uçuş seçilir
+* "yurtdısıİlkUcusSelect" li elemente tıkla
 
-
-
+# Uçuş satın al butonuna tıklanır ve tutarların doğru geldiği görülür
+*"firstTotalAmount" elementinin değeri alınır "ucusSatınalBtn" elementi tıklanır "lastTotalAmount" elementiyle aynı olduğu görülür
 
 
 

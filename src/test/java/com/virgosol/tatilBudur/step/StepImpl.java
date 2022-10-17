@@ -137,6 +137,29 @@ public class StepImpl {
         driver.findElement(byElement).click();
 
     }
+    @Step({"<key> elementinin değeri alınır <key2> elementi tıklanır <key3> elementiyle aynı olduğu görülür"})
+    public void prizeAmountCheck(String key,String key2,String key3) throws InterruptedException {
+
+       By firstAmount=ElementHelper.getElementInfoToBy(key);
+        WebElement firstAmountResult = driver.findElement(firstAmount);
+        System.out.println("firstAmountResult.getText() = " + firstAmountResult.getText());
+
+        waitingAction.waitUntil(ExpectedConditions.presenceOfElementLocated(firstAmount));
+
+        Thread.sleep(3000);
+        By byElement = ElementHelper.getElementInfoToBy(key2);
+        waitingAction.waitUntil(ExpectedConditions.presenceOfElementLocated(byElement));
+        swipeToElement(driver.findElement(byElement));
+        Thread.sleep(1000);
+        driver.findElement(byElement).click();
+        Thread.sleep(3000);
+        By lastAmount=ElementHelper.getElementInfoToBy(key);
+        waitingAction.waitUntil(ExpectedConditions.presenceOfElementLocated(lastAmount));
+       WebElement lastAmountResult = driver.findElement(lastAmount);
+        System.out.println("lastAmountResult.getText() = " + lastAmountResult.getText());
+
+
+    }
 
 
     @Step({"<key>elementini <key2> elementinin text değeri <text> olana kadar tıkla"})
@@ -1354,26 +1377,6 @@ public class StepImpl {
         waitingAction.waitUntil(ExpectedConditions.elementToBeClickable(element2));
         actions.moveToElement(element2).click(element2).build().perform();
 
-      /*  1. yöntem
-      Actions actions = new Actions(driver);
-      List<WebElement> elements= driver.findElements(By.xpath("//div[@role='group']//p[@class='chakra-text css-2i6bdx']"));
-        for (WebElement webElement : elements) {
-            if(webElement.getText().contains(airport)){
-                actions.moveToElement(webElement).click(webElement).build().perform();
-            }
-        }
-        */
-
-        /*  2. yöntem
-        Actions actions = new Actions(driver);
-        List<WebElement> elements= driver.findElements(By.xpath("//div[@class='css-15vq24l']//p"));
-        for (WebElement webElement : elements) {
-            while (webElement.getText().contains(airport)) {
-                actions.sendKeys(Keys.ARROW_DOWN).perform();
-                actions.click(webElement).perform();
-            }
-        }
-        */
     }
 
 
@@ -1424,7 +1427,9 @@ public class StepImpl {
     @Step("Ucus Tarihi olarak bu günden itibaren <text> gün sonra giriş <text2> gün sonra çıkış seç")
     public void selectFlightDate(String text,String text2) throws InterruptedException {
 
-        WebElement elementMain=driver.findElement(By.xpath("//input[@class='c-input c-input--has-icon c-finder__flight-range flight-date-range']"));
+        WebElement elementMain=driver.findElement(By.xpath("(//div[@class='c-finder__row']//div[@class='c-input__row'])[6]"));
+        Thread.sleep(3000);
+        elementMain.click();
         elementMain.click();
         Thread.sleep(3000);
         int startDayFromToday = Integer.parseInt(text);
@@ -1461,6 +1466,40 @@ public class StepImpl {
         }
         WebElement end = driver.findElement(By.xpath(locatorForEnd));
         end.click();
+        WebElement uygulaBtn=driver.findElement(By.xpath("//body[1]/div[@class='daterangepicker ltr show-calendar opensright']//button[@class='applyBtn btn btn-sm c-button c-button--primary c-button-sm-h c-button--sm-v']"));
+        uygulaBtn.click();
+
+
+
+    }
+    @Step("Ucus Tarihi tek yön için olarak bu günden itibaren <text> gün sonra seçilir")
+    public void selectFlightDate(String text) throws InterruptedException {
+
+        WebElement elementMain=driver.findElement(By.xpath("(//div[@class='c-finder__row']//div[@class='c-input__row'])[6]"));
+        Thread.sleep(3000);
+        elementMain.click();
+        elementMain.click();
+        Thread.sleep(3000);
+        int startDayFromToday = Integer.parseInt(text);
+
+
+        selectDate1(startDayFromToday);
+    }
+
+    private void selectDate1(int startDayFromToday) {
+        LocalDate startDate = LocalDate.now().plusDays(startDayFromToday);
+        int startDayOfMonth = startDate.getDayOfMonth();
+        String locatorForStart="";
+        if (!LocalDate.now().getMonth().toString().equals(startDate.getMonth().toString())){
+            locatorForStart = "(//tbody)[2]//td[.='" + startDayOfMonth + "']";
+
+        }else {
+            locatorForStart = "(//tbody)[1]//td[.='" + startDayOfMonth + "']";
+        }
+
+        System.out.println("startDayOfMonth = " + startDayOfMonth);
+        WebElement start = driver.findElement(By.xpath(locatorForStart));
+        start.click();
 
 
 

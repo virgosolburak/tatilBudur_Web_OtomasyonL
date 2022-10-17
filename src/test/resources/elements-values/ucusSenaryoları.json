@@ -163,6 +163,23 @@
     "key": "ucusSatınalBtn",
     "value": ".buy-flight",
     "type": "css"
+  },
+  {
+    "key": "yurtdısıİlkUcusSelect",
+    "value": "(//button[@class='btn btn-orange btn-outline select-from-price'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstTotalAmount",
+    "value": ".total",
+    "type": "css"
+  },
+  {
+    "key": "lastTotalAmount",
+    "value": ".total",
+    "type": "css"
   }
+
+
 
 ]
