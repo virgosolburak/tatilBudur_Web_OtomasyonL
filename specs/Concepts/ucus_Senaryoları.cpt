@@ -12,6 +12,10 @@
 *"txt_Nerden" li elemente <text> degerini yaz
 * "1" sn bekle
 * "txt_NerdenResult" li elementlerden <text2> değerine eşit olana tıkla
+# Nerden alanına <text> yazılır ve X butonuna tıklanır
+* "3" sn bekle
+*"txt_Nerden" li elemente <text> degerini yaz
+* "closekalkis" li elemente tıkla
 # Nereye alanına <text> yazılır ve seçilir
 *"txt_Nereye" li elemente <text> degerini yaz
 * "1" sn bekle
@@ -22,12 +26,27 @@
 * "1" sn bekle
 * "txt_NerdenResult" li elementlerden <text2> değerine eşit olana tıkla
 * "5" sn bekle
+#Nereye alnanına<text> yazılır ve X butonuna tıklanır
+* "3" sn bekle
+*"txt_Nereye" li elemente <text> degerini yaz
+* "closeInis" li elemente tıkla
+#Tarih alanına tıklanır X butonuna tıklanır
+* "dateMainComponent" li elemente tıkla
+* "dateMainComponent" li elemente tıkla
+* "closeDate" li elemente tıkla
 # Yetişkin olarak <text> kişi eklenir
 *"personCountMain" li elemente tıkla
 * "adultCountIcrease"elementini "adultCountResult" elementinin text değeri <text> olana kadar tıkla
+# Kişi ekleme alanı açılır X tıklanır
+*"personCountMain" li elemente tıkla
+*"closePersonCount" li elemente tıkla
 # Sınıf olarak <text> seçilir
 * "UcusSınıfSecenekleriMain" li elemente tıkla
 * "UcusSınıfSecenekleri" li elementlerden <text> değerine eşit olana tıkla
+# Sınıf alanından <text> seçilir X butonuna tıklanır
+* "UcusSınıfSecenekleri" li elementlerden <text> değerine eşit olana tıkla
+* "UcusSınıfSecenekleriMain" li elemente tıkla
+* "closeClass" li elemente tıkla
 # Uçuş ara butonu tıklanır
 * "btn_Search_Uygula" li elemente tıkla
 # Çocuk olarak <text> kişi eklenir
@@ -63,13 +82,25 @@
 
 # Uçuş satın al butonuna tıklanır ve tutarların doğru geldiği görülür
 *"firstTotalAmount" elementinin değeri alınır "ucusSatınalBtn" elementi tıklanır "lastTotalAmount" elementiyle aynı olduğu görülür
+#İlk uçuşların uçuş numaraları alınır
+*"firstGidisFlightNumber" li elementin textini "gidisUcusNumarasi" olarak kaydet
+*"firstDonusFlightNumber" li elementin textini "donusUcusNumarasi" olarak kaydet
+#Uçuş numaralarının aynı olduğu kontrol edilir
+*"15" sn bekle
+*"firstGidisFlightNumberResult" li elementin textinin "gidisUcusNumarasi" ile aynı olduğu görülür
+*"firstDonusFlightNumberResult" li elementin textinin "donusUcusNumarasi" ile aynı olduğu görülür
+#Açılan ikaz penceresinde <text> yazdığı görülür
+* "popUpAlerMessage" li elementlerin text değerleri <text> mi?
+#Gidis alanında <text1> ve donus alanında <text2> ikazı görülür
+*"5" sn bekle
+* "gidisAlert" li elementlerin text değerleri <text1> mi?
+* "donusAlert" li elementlerin text değerleri <text2> mi?
 
 
 
 
 
 
-3ecc
 
 
 

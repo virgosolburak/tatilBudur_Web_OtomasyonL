@@ -5,7 +5,5 @@
 		"--hide-suggestion",
 		"--simple-console"
 	],
-	"FailedItems": [
-		"specs\\Scenarios\\ucus_Senaryoları.spec:128"
-	]
+	"FailedItems": []
 }

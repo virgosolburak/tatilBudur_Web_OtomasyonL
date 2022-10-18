@@ -178,7 +178,73 @@
     "key": "lastTotalAmount",
     "value": ".total",
     "type": "css"
+  },
+  {
+    "key": "firstGidisFlightNumber",
+    "value": "(//ul[@class='option-list flight-items flight-from']//li//p)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstDonusFlightNumber",
+    "value": "(//ul[@class='option-list flight-items flight-to']//li//p)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstGidisFlightNumberResult",
+    "value": "(//ul[@class='list-group']//div[@class='list-desc'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "firstDonusFlightNumberResult",
+    "value": "(//ul[@class='list-group']//div[@class='list-desc'])[6]",
+    "type": "xpath"
+  },
+  {
+    "key": "popUpAlerMessage",
+    "value": ".modal-body-text",
+    "type": "css"
+  },
+  {
+    "key": "gidisAlert",
+    "value": "#departure > .alert",
+    "type": "css"
+  },
+  {
+  "key": "donusAlert",
+  "value": "#return > .alert",
+  "type": "css"
+  },
+  {
+    "key": "closekalkis",
+    "value": "(//*[name()='svg'])[50]",
+    "type": "xpath"
+  },
+  {
+    "key": "closeInis",
+    "value": "(//*[name()='svg'])[73]",
+    "type": "xpath"
+  },
+  {
+    "key": "dateMainComponent",
+    "value": "(//div[@class='c-finder__row']//div[@class='c-input__row'])[6]",
+    "type": "xpath"
+  },
+  {
+    "key": "closeDate",
+    "value": "(//*[name()='svg'])[101]",
+    "type": "xpath"
+  },
+  {
+    "key": "closePersonCount",
+    "value": "(//*[name()='svg'])[78]",
+    "type": "xpath"
+  },
+  {
+    "key": "closeClass",
+    "value": "(//*[name()='svg'])[81]",
+    "type": "xpath"
   }
+
 
 
 

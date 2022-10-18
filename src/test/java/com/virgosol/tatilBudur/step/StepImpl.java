@@ -158,8 +158,31 @@ public class StepImpl {
        WebElement lastAmountResult = driver.findElement(lastAmount);
         System.out.println("lastAmountResult.getText() = " + lastAmountResult.getText());
 
+    }
+
+    @Step({"<key> li elementin textini <key2> olarak kaydet"})
+    public void saveText(String key, String key2) {
+        By byElement = ElementHelper.getElementInfoToBy(key);
+        waitingAction.waitUntil(ExpectedConditions.presenceOfElementLocated(byElement));
+        WebElement element = driver.findElement(byElement);
+        StoreHelper.saveValue(key2, element.getText());
+    }
+
+    @Step({"<key> li elementin textinin <savedKey> ile aynı olduğu görülür"})
+    public void checkText(String key, String savedKey) {
+        By byElement = ElementHelper.getElementInfoToBy(key);
+        waitingAction.waitUntil(ExpectedConditions.presenceOfElementLocated(byElement));
+        WebElement element = driver.findElement(byElement);
+        String expectedResult=StoreHelper.getValue(savedKey);
+        System.out.println("expectedResult = " + expectedResult);
+        System.out.println("element.getText() = " + element.getText());
 
     }
+
+
+
+
+
 
 
     @Step({"<key>elementini <key2> elementinin text değeri <text> olana kadar tıkla"})
@@ -197,6 +220,15 @@ public class StepImpl {
 
 
    }
+    @Step({"alert elementinin mesajının <text>  içerdiği görülür ve kabul edilir"})
+    public void alertText( String text) {
+        waitingAction.waitUntil(ExpectedConditions.alertIsPresent()) ;
+        String message= driver.switchTo().alert().getText();
+        System.out.println("message = " + message);
+        Assert.assertTrue(message.contains(text));
+        driver.switchTo().alert().accept();
+
+    }
     //@Step({"Sayfanın title ı <title> mı?"})
     @Step({"Sayfanın title ı <title> mı?",
             "Is the page title <title>?"})
